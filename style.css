@@ -1,0 +1,70 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 840px;
+    padding: 80px;
+    margin: 50px auto;
+    text-align: justify;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+    padding: 80px;
+    margin: 50px auto;
+    text-align: justify;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 540px;
+    padding: 80px;
+    margin: 50px auto;
+    text-align: justify;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+    padding: 80px;
+    margin: 50px auto;
+    text-align: justify;
+  }
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.banner {
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: rgb(255, 255, 255, 0.8);
+  }
+
+.banner p {
+  font-style: italic;
+}
+
+
+h1 {
+  font-style: bolder;
+}
+
+h2 {
+  font-style: italic;
+  color: rgb(200, 200, 200);
+  font-family: Arial;
+}
+
+#sofoot:hover {
+  background-image: linear-gradient(to bottom, rgba(28, 28, 63, 0.4), rgba(28, 28, 63, 0.4));
+}
+
+#sofoot{
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+
